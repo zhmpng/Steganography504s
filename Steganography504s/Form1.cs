@@ -83,7 +83,7 @@ namespace Steganography504s
 
         private void ИнформацияToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Данная опытная программа была создана студентом группы М4О-504С-16, в рамках учебно-исследовательской работы студента", "Жмылев М.А.");
+            MessageBox.Show("Данная опытная программа была создана студентом группы М4О-504С-16", "Жмылев М.А.");
         }
     }
 }
