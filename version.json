@@ -10,7 +10,7 @@
     "precision": "revision" // optional. Use when you want a more precise assembly version than the default major.minor.
   },
   "release": {
-    "branchName": "master{version}",
+    "branchName": "v{version}",
     "versionIncrement": "minor",
     "firstUnstableTag": "alpha"
   },
