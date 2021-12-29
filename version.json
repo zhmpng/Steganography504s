@@ -1,10 +1,19 @@
 {
   "$schema": "https://raw.githubusercontent.com/dotnet/Nerdbank.GitVersioning/master/src/NerdBank.GitVersioning/version.schema.json",
-  "version": "1.0",
+  "version": "0.18",
   "publicReleaseRefSpec": [
     "^refs/heads/master$",
     "^refs/heads/v\\d+\\.\\d+$"
   ],
+  "assemblyVersion": {
+    "version": "0.18", // optional. Use when x.y for AssemblyVersionAttribute differs from the default version property.
+    "precision": "revision" // optional. Use when you want a more precise assembly version than the default major.minor.
+  },
+  "release": {
+    "branchName": "master",
+    "versionIncrement": "minor",
+    "firstUnstableTag": "alpha"
+  },
   "cloudBuild": {
     "buildNumber": {
       "enabled": true
